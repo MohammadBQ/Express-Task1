@@ -1,7 +1,7 @@
 const PORT = 8000   
 const express = require("express")
 const app = express()
-const data = require("./data")
+const products = require("./data")
 
 app.get("/api/products", (req, res) => {
     res.status (404) .json ({ data: data }) })
